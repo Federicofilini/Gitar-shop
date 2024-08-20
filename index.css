@@ -1,0 +1,39 @@
+@import url(./reset.css);
+@import url(./Components/Footer/footer.css);
+@import url(./Components/Main/main.css);
+@import url(./Components/Headr/headr.css);
+@font-face {
+  font-family: Lato-Regular;
+  src: url(./fonts/Lato/Lato-Regular.ttf);
+}
+@font-face {
+  font-family: Lato-Bold;
+  src: url(./fonts/Lato/Lato-Bold.ttf);
+}
+@font-face {
+  font-family: Lato-Black;
+  src: url(./fonts/Lato/Lato-Black.ttf);
+}
+
+html,
+body {
+  width: 100%;
+}
+body {
+  /* background-image :url(./img/fon.jpg) ; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  box-shadow: inset 50px 50px 50px 50px rgba(100, 97, 97, 0.173);
+  padding-bottom: 20px;
+  /* если установить бекграунд то он зальет все вместе с карточками */
+  /* background-color: black; */
+}
+
+* {
+  box-sizing: border-box;
+}
+* {
+  outline: dashed red 1px;
+}
