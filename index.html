@@ -15,23 +15,27 @@
     />
   </head>
   <body>
+    <!-- HEADER -->
     <header class="header">
       <div class="header-head">
         <div class="box-left">
-          <a class="serv" href="#">Hardrock.com</a>
-          <a class="serv-1" href="#">Cafes</a>
-          <a class="serv-1" href="#">Hotels</a>
-          <a class="serv-1" href="#">Casinos</a>
-          <a class="serv-1" href="#">Online Games</a>
-          <a class="serv-1" target="_blank">Rock Shop</a>
+          <img class="burger-img" src="./img/menu-bar 3.png" alt="" />
+          <ul class="list">
+            <a class="serv" href="#">Hardrock.com</a>
+            <a class="serv-1" href="#">Cafes</a>
+            <a class="serv-1" href="#">Hotels</a>
+            <a class="serv-1" href="#">Casinos</a>
+            <a class="serv-1" href="#">Online Games</a>
+            <a class="serv-1" target="_blank">Rock Shop</a>
+          </ul>
         </div>
         <div class="box-right">
-          <div class="sign-in">
+          <button class="btn-sign-in">
             <a class="d-flex" href="#">
               <img class="img-sign" src="./img/add-user (2).png" />
               <span class="user-message">Sign In</span>
             </a>
-          </div>
+          </button>
         </div>
       </div>
       <div class="header-mid">
@@ -42,27 +46,16 @@
           <input
             class="form-control"
             type="text"
-            name="q"
-            value=""
+            maxlength="100"
             placeholder="Search"
-            role="combobox"
-            aria-describedby="search-assistive-text"
-            aria-haspopup="listbox"
-            aria-owns="search-results"
-            aria-expanded="false"
-            aria-autocomplete="list"
-            aria-activedescendant=""
-            aria-controls="search-results"
-            aria-label="Enter Keyword or Item No."
-            autocomplete="off"
           />
         </div>
         <div class="trolley">
-          <img class="img-trolley" src="./img/cart.png" alt="">
+          <img class="img-trolley" src="./img/cart.png" alt="" />
         </div>
-        
       </div>
     </header>
+    <!-- MAIN -->
     <main class="countainer-products">
       <ul class="products-list">
         <li class="products-card">

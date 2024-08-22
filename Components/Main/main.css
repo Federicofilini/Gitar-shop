@@ -85,10 +85,10 @@
 .btn-buy {
   width: 70px;
   height: 25px;
-  background-color: rgba(179, 108, 22, 0.403);
+  background-color: #000;
   border: 1px rgba(0, 0, 0, 0.39) solid;
   border-radius: 3px;
-  color: rgba(0, 0, 0, 0.799);
+  color: #fff;
   font-family: Lato-Black;
   letter-spacing: 1px;
   cursor: pointer;
