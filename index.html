@@ -19,15 +19,20 @@
     <header class="header">
       <div class="header-head">
         <div class="box-left">
-          <img class="burger-img" src="./img/menu-bar 3.png" alt="" />
-          <ul class="list">
-            <a class="serv" href="#">Hardrock.com</a>
-            <a class="serv-1" href="#">Cafes</a>
-            <a class="serv-1" href="#">Hotels</a>
-            <a class="serv-1" href="#">Casinos</a>
-            <a class="serv-1" href="#">Online Games</a>
-            <a class="serv-1" target="_blank">Rock Shop</a>
-          </ul>
+          <input type="checkbox" id="burger" />
+          <label for="burger"
+            ><img class="burger-img" src="./img/menu-bar 3.png" alt=""
+          /></label>
+          <nav class="navigator">
+            <ul class="list">
+              <a class="serv-1" href="#">Hardrock.com</a>
+              <a class="serv-1" href="#">Cafes</a>
+              <a class="serv-1" href="#">Hotels</a>
+              <a class="serv-1" href="#">Casinos</a>
+              <a class="serv-1" href="#">Online Games</a>
+              <a class="serv-1" href="#">Rock Shop</a>
+            </ul>
+          </nav>
         </div>
         <div class="box-right">
           <button class="btn-sign-in">
@@ -39,9 +44,9 @@
         </div>
       </div>
       <div class="header-mid">
-        <div class="track-order">
+        <button class="track-order">
           <a class="treak" href="#">Track Order</a>
-        </div>
+        </button>
         <div class="search-field">
           <input
             class="form-control"

@@ -64,12 +64,13 @@
   height: 80%;
 }
 .ruble {
+  display: block;
   width: 15px;
   height: 15px;
   margin-bottom: -2px;
 }
 .products-price {
-  display: block;
+  display: flex;
   color: rgba(2, 1, 1, 0.81);
   font-size: 15px;
   font-weight: 300;
