@@ -18,6 +18,7 @@
   background-color: #000;
   flex-direction: column;
   margin-bottom: 10px;
+  z-index: 1;
 }
 .header-head {
   display: flex;
@@ -66,6 +67,7 @@
   background-color: #000;
   gap: 10px;
 }
+
 .serv {
   display: flex;
   justify-content: center;
@@ -92,6 +94,9 @@
   height: auto;
   font-family: Lato-Regular;
   text-wrap: nowrap;
+}
+.serv-1:hover{
+  color: silver;
 }
 .a-btn {
   width: auto;
@@ -132,6 +137,10 @@
   margin-left: 5px;
   cursor: pointer;
 }
+.track-order:active{
+  background-color: rgba(0, 0, 0, 0.649);
+  
+}
 .treak {
   display: block;
 
@@ -164,6 +173,7 @@
   height: 40px;
   display: none;
   box-shadow: none;
+  cursor: pointer;
 }
 .burger-img-alt {
   width: 40px;
@@ -171,6 +181,7 @@
   display: none;
   background-color: #fff;
   border-radius: 50%;
+  cursor: pointer;
 }
 #burger {
   display: none;
@@ -189,6 +200,9 @@
 
   text-align: center;
   color: #000;
+}
+.btn-sign-in:active{
+  background-color: silver;
 }
 .d-flex {
   width: 100%;
@@ -225,6 +239,16 @@
   height: 30px;
   font-family: Lato-Regular;
   background-color: rgb(247, 250, 251);
+}
+.search-field input:focus::placeholder{
+  color: transparent;
+}
+.earch{
+  width: 20px;
+  height: 20px;
+  display: block;
+  border: #000 solid 1px;
+  background-color: #000;
 }
 
 @media (max-width: 1200px) {
@@ -273,10 +297,12 @@
   }
   #burger:checked + label .burger-img {
     display: none;
+    
   }
   
   #burger:checked + label .burger-img-alt {
     display: block;
+    
   }
   .serv,
   .serv-1 {
