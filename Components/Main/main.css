@@ -4,6 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #00000082;
 }
 .products-list {
   width: 95%;
@@ -47,7 +48,8 @@
   box-shadow: 5px 5px 10px 0px rgba(29, 4, 4, 0.2);
   flex-direction: column;
   align-items: center;
-  border: 2px solid rgba(24, 16, 16, 0.558);
+  background-color: #fff;
+
   border-radius: 3px;
   gap: 20px;
   padding-bottom: 10px;
@@ -68,7 +70,7 @@
   transition: transform 0.3s ease;
 }
 .products-card:hover .products-img {
-  transform: translateY(-10px) scale(1.1); /* Смещение и увеличение изображения */
+  transform: translateY(-15px) scale(1.1); /* Смещение и увеличение изображения */
 }
 .ruble {
   display: block;
@@ -100,8 +102,9 @@
   font-family: Lato-Black;
   letter-spacing: 1px;
   cursor: pointer;
+  perspective: 5px;
+  transition: transform 0.1s ease;
 }
 .btn-buy:active {
-  background-color: #000000cc;
-  color: #9f9898;
+  transform: scale(0.95);
 }
