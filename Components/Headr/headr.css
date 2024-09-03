@@ -68,19 +68,6 @@
   gap: 10px;
 }
 
-.serv {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  color: white;
-  font-size: 0.85rem;
-
-  font-weight: 400;
-  padding: 9px;
-  text-align: center;
-  font-family: Lato-Regular;
-}
 .serv-1 {
   display: flex;
   text-decoration: none;
@@ -94,10 +81,14 @@
   height: auto;
   font-family: Lato-Regular;
   text-wrap: nowrap;
+  transition: transform 0.1s ease;
 }
 .serv-1:hover {
   color: silver;
-  font-size: 15px;
+  font-size: 16px;
+}
+.serv-1:active {
+  transform: scale(0.9);
 }
 .a-btn {
   width: auto;
@@ -233,6 +224,7 @@
 .search-field {
   width: 40%;
   height: 40px;
+  border-radius: 3px;
   background-color: #fff;
   display: flex;
   align-items: center;

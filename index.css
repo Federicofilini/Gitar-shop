@@ -18,6 +18,7 @@
 html,
 body {
   width: 100%;
+  
 }
 body {
   /* background-image :url(./img/fon.jpg) ; */
@@ -25,10 +26,9 @@ body {
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-  box-shadow: inset 50px 50px 50px 50px rgba(100, 97, 97, 0.173);
-  padding-bottom: 20px;
-  /* если установить бекграунд то он зальет все вместе с карточками */
-  /* background-color: black; */
+  
+  
+ 
 }
 
 * {

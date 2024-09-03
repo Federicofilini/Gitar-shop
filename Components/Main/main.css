@@ -5,6 +5,8 @@
   align-items: center;
   justify-content: center;
   background-color: #00000082;
+  padding-bottom: 20px;
+  
 }
 .products-list {
   width: 95%;
