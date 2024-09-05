@@ -151,12 +151,7 @@
   height: 40px;
   background-color: #dad7d7;
 }
-.img-trolley {
-  width: 40px;
-  height: 40px;
-  background-color: silver;
-  display: block;
-}
+
 .burger-img {
   background-color: #fff;
   border-radius: 50%;
@@ -267,12 +262,24 @@
   border: #000 solid 1px;
   background-color: #000;
 }
+.img-trolley {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: silver;
+  display: block;
+}
 .trolley-button {
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   transition: transform 0.1s ease;
+}
+
+.trolley-button:hover {
+  animation: trolley 3s infinite;
 }
 .trolley-button:active {
   transform: scale3d(0.8, 0.8, 1);
@@ -356,5 +363,22 @@
 
   100% {
     opacity: 1;
+  }
+}
+@keyframes trolley {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-15deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(15deg);
+  }
+  100% {
+    transform: rotate(0deg);
   }
 }
