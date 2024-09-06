@@ -132,6 +132,7 @@
 }
 .track-order:active {
   transform: scale3d(0.95, 0.95, 1);
+  outline: none;
 }
 .treak {
   display: block;
@@ -253,7 +254,7 @@
   transition: transform 0.1s ease;
 }
 .search-botton:active {
-  transform: scale(0.9);
+  transform: scale(1.2);
 }
 .earch {
   width: 20px;
@@ -279,10 +280,11 @@
 }
 
 .trolley-button:hover {
-  animation: trolley 3s infinite;
+  animation: trolley 1s ease;
 }
 .trolley-button:active {
   transform: scale3d(0.8, 0.8, 1);
+  outline: none;
 }
 
 @media (max-width: 1200px) {
